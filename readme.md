@@ -10,7 +10,7 @@ This project is for learning purposes only. Pull requests are welcome, but keep 
 
 Site published at https://laurynasand.github.io/5_agency/
 
-Design: [Agency template](https://front-end-by-rimantas.github.io/17-grupe-agency/index.html)
+Design: [Agency template](http://trydo.rainbowit.net/home-particles)
 
 ### Author:
 [Laurynas Andrulionis](https://github.com/LaurynasAnd)
