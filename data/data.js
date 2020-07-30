@@ -31,14 +31,22 @@ const services = [
     }
 ];
 
-const team = [
+const funFacts = [
     {
-        photo: 'user.jpg',
-        name: 'Vardenis'
+        number: 199,
+        description: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.'
+    },
+    {
+        number: 575,
+        description: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.'
+    },
+    {
+        number: 69,
+        description: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.'
     }
 ];
 
 export default {
     services,
-    team
+    funFacts
 };
