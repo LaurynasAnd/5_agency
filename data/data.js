@@ -16,6 +16,5 @@ const funFacts = [
 ];
 
 export default {
-    services,
     funFacts
 };
