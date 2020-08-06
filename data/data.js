@@ -17,61 +17,61 @@ const funFacts = [
 
 const portfolio = [
     {
-        photo: '.portfolio-1.jpg',
+        photo: 'portfolio-1.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.portfolio-2.jpg',
+        photo: 'portfolio-2.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.portfolio-3.jpg',
+        photo: 'portfolio-3.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.portfolio-4.jpg',
+        photo: 'portfolio-4.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.portfolio-1.jpg',
+        photo: 'portfolio-1.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.portfolio-2.jpg',
+        photo: 'portfolio-2.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.portfolio-3.jpg',
+        photo: 'portfolio-3.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.portfolio-4.jpg',
+        photo: 'portfolio-4.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.portfolio-1.jpg',
+        photo: 'portfolio-1.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.portfolio-2.jpg',
+        photo: 'portfolio-2.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
@@ -79,61 +79,61 @@ const portfolio = [
 ];
 const news = [
     {
-        photo: '.blog-1.jpg',
+        photo: 'blog-01.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.blog-2.jpg',
+        photo: 'blog-02.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.blog-3.jpg',
+        photo: 'blog-03.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.blog-4.jpg',
+        photo: 'blog-04.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.blog-1.jpg',
+        photo: 'blog-01.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.blog-2.jpg',
+        photo: 'blog-02.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.blog-3.jpg',
+        photo: 'blog-03.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.blog-4.jpg',
+        photo: 'blog-04.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.blog-1.jpg',
+        photo: 'blog-01.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
     },
     {
-        photo: '.blog-2.jpg',
+        photo: 'blog-02.jpg',
         category: 'development',
         title: 'getting tickets to the big show',
         link: '#'
