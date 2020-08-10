@@ -3,7 +3,7 @@
 import data from '../data/data.js';
 
 // import rendering functions
-import renderServices from './renderServices.js';
+import {renderServices} from './renderServices.js';
 // import {ajax} from './ajax.js';
 import {Slider} from './Slider.js';
 import {renderFunFacts, addEventListenerFunFactsOnScroll} from './renderFunFacts.js';

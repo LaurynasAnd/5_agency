@@ -1,10 +1,15 @@
-function renderServices(data, selector) {
-    //validation
+import { ajax } from './ajax.js';
 
-    //logic
-    let HTML = '';
+async function renderServices(selector, dataURL) {
+    // validation
+
+    // logic
     const DOM = document.querySelector(selector);
+    let HTML = '';
+
+    const data = await ajax(dataURL);
     const size = data.length;
+
     for (let i = 0; i < size; i++) {
         const service = data[i];
         HTML += `<div class="service">
@@ -13,7 +18,8 @@ function renderServices(data, selector) {
                     <p>${service.description}</p>
                 </div>`;
     }
-return DOM.innerHTML = HTML;
+
+    return DOM.innerHTML = HTML;
 }
 
-export default renderServices;
+export { renderServices };

@@ -22,6 +22,7 @@
         width: calc(100% / var(--item-count));
         padding: 20px;
         height: 100%;
+        position: relative;
     }
         .slider > .list > .item > img {
             width: 100%;
@@ -30,7 +31,12 @@
             object-position: center;
         }
         .slider > .list > .item > .details {
-
+            position: absolute;
+            left: 40px;
+            right: 40px;
+            bottom: 40px;
+            color: #fff;
+            font-size: 30px;
         }
             .slider > .list > .item > .details > .category {
 
@@ -39,11 +45,27 @@
 
             }
             .slider > .list > .item > .details > .read-more {
+                color: #fff;
 
             }
     .slider > .controls {
-
+        display: inline-block;
+        width: 100%;
+        text-align: center;
     }
+        .slider > .controls > .bubble {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #777;
+            border-radius: 50%;
+            margin: 3px;
+            cursor: pointer;
+        }
+            .slider > .controls > .bubble.active, 
+            .slider > .controls > .bubble:hover {
+                background-color: red;
+            }
 
     @media (min-width: 650px) {
         .slider > .list {
