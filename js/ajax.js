@@ -1,12 +1,11 @@
 'use strict';
 
-function ajax(callback, callbackParams) {
-    const URL = 'https://laurynasand.github.io/5_agency/data/services.json'
+function ajax(dataFileURL, callback) {
+    const URL = `https://laurynasand.github.io/5_agency/data/${dataFileURL}`;
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            const response = JSON.parse(xhttp.responseText);
-            callback(response, callbackParams)
+            callback(JSON.parse(xhttp.responseText));
         }
     };
     xhttp.open("GET", URL, true);

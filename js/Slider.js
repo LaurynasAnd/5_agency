@@ -1,7 +1,10 @@
+import {ajax} from './ajax.js';
+
 class Slider {
     constructor(params){
         this.selector = params.selector;
         this.data = params.data;
+        this.dataURL = params.dataURL;
         this.renderPosition = params.renderPosition;
         this.maxItemsOnMobile = 9;
         this.imgPath = params.imgPath
@@ -19,8 +22,9 @@ class Slider {
         }
         this.willItOverwriteContent()
         //content rendering
-        this.render();
+        ajax(this.dataURL, this.render);
     }
+
     isValidSelector(){
         if (this.selector === undefined){
             console.error('Slider has to have a selector');
